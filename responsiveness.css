@@ -1,0 +1,387 @@
+
+@media screen and (max-width : 424px) {
+  html{
+    font-size: 13px;
+  }
+
+  .category{
+    justify-content: center;
+  }
+
+  .cat{
+    width: 22.5em;
+  }
+  .cat img{
+    width: 50%;
+  }
+
+  .cat div>button {
+    padding-inline: 9px;
+    padding-block: 11px;
+}
+}
+
+/* @media screen and (max-width : 768px) {
+  html{
+    font-size: 13px;
+  }
+} */
+
+
+
+ /* ---------Mobile phone large -------- */
+
+@media screen and (max-width: 425px){
+
+    main{
+      gap: 3em;
+    }
+
+    .menu{
+      gap: 13em;
+    }
+
+
+  .nav-links{
+    display: none;
+  }
+
+  
+  .nav-button{
+    display: block;
+    background-color: white;
+    padding: 0em;
+  }
+
+  .user{
+    display: none;
+  }
+
+  .hero{
+    gap: 2em;
+  }
+  .furniture{
+    padding-inline: 0.5em;
+  }
+
+  .f-three{
+    display: none;
+  }
+
+  .f-two{
+    width: 98dvw;
+  }
+  .logo{
+    gap: 1em;
+  }
+
+  .logo img {
+    width: 04em;
+  
+  }
+
+
+  /* dummy-text */
+  .msg-2 p,.dummy-text-two{
+    font-size: 0.9rem;
+    width: 100%;
+  }
+
+  .description .dummy-text{
+    width: 100%;
+    font-size: 0.9rem;
+  }
+
+  .head{
+    font-size: 2rem;
+  }
+
+  .testimonials{
+    gap: 2em;
+  }
+  
+  .category{
+    padding: 0em;
+  }
+
+  .category-box{
+    flex-direction: column;
+    padding: 1em;
+  }
+
+  .gallery .header{
+    gap: 1.5em;
+  }
+  .tags{
+    justify-content: flex-start;
+    overflow-x: auto;
+    padding-inline: 1em;
+  }
+
+
+  .tags::-webkit-scrollbar{
+    width: 0;
+  }
+
+
+  .review-box-1{
+    flex-direction: column-reverse;
+    /* gap: 3em; */
+  }
+
+  .review-box-1a{
+    width: 100%;
+    padding-inline: 1em;
+  }
+
+  .statement{
+    width: 100%;
+    font-size: 0.9rem;
+
+
+  }
+  .review-box-1b{
+    width: 100%;
+    padding-left: 1em;
+    padding-top: 1em;
+  }
+
+  .rb-1bb{
+    font-size: 1.635rem;
+  }
+
+  .review-box-2{
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 8em 1em 1em 1em;
+  }
+
+  .sub-mg{
+    width: 80%;
+    }
+
+  .sub-mg p {
+    font-size: 1.2rem;
+  }
+    
+  .bar-2{
+    width: 100%;
+  }
+
+  .b-quote{
+    fill: orange;
+    width: 5em;
+    left: 70%;
+    top: 30%;
+  }
+
+  .couch{
+    top: 50%;
+    left: -30%;
+    width: 30em;
+  }
+
+
+  .fbox-1{
+    flex-direction: column;
+    gap: 2em;
+  }
+
+  .logo-txt{
+      width: 100%;
+      margin-left: 0em;
+      padding: 0em;
+    }
+  
+  .logo-txt>p {
+      text-align: left;
+      width: 100%;
+  }
+
+    .columns{
+      width: 100%;
+      flex-wrap: wrap;
+      gap: 1em;
+      justify-content: flex-start;
+    }
+
+    .columns>div{
+      width: 40%;
+    }
+}
+
+
+/* @media screen and (min-width:426px) {
+ .nav-button{
+  display: none;
+ }
+} */
+
+
+/* ------Tablet design------ */
+
+@media screen and (width: 48em) {
+  .menu{
+    gap: 10em;
+  }
+
+  /* .nav-links {
+    width: 100%;
+  } */
+
+  .nav-links ul {
+    width: 38dvw;
+    gap: 1em;
+  }
+
+
+  ul a {
+    font-size: 1rem;
+  }
+
+  .logo img {
+    width: 06em;
+  
+  }
+
+  .head{
+    font-size: 3.5rem;
+  }
+
+
+
+  .head-two{
+    font-size: 2.5rem;
+  }
+
+  .g-pics div{
+    width: 90%;
+    padding-block: 0.5em;
+    gap: 1em;
+    display: flex;
+  }
+
+  .g-pics>div>img{
+    width: 40%;
+  }
+
+
+  .couch{
+    top: 33%;
+    left: -18em;
+  }
+
+  .b-quote{
+    width: 13em;
+    left: 40%;
+  }
+
+  .rb-1bb p{
+    font-size: 2.5rem;
+  }
+
+  .rb-1bc{
+    font-size: 1rem;
+  }
+
+  .statement{
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width:48em) {
+  .f-four{
+    display: none;
+  }
+
+  .g-pics div{
+    width: 90%;
+    padding-block: 0.5em;
+    gap: 1em;
+    display: flex;
+    margin-left: 0em;
+  }
+
+  .g-pics>div>img{
+    width: 40%;
+  }
+}
+
+
+/* ------laptop------------ */
+
+@media screen and (width:64em) {
+
+
+
+  .logo img {
+    width: 10em;
+  }
+  .g-pics{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .g-pics div{
+    width: 67%;
+    padding-block: 0.5em;
+    gap: 1em;
+  }
+
+  .g-pics-3,.g-pics-4{
+    flex-basis: 100%;
+  }
+
+
+
+  .couch{
+    left: -8em;
+  }
+
+  .g-pics-6,.g-pics-5{
+    margin-left: 0em;
+  }
+
+  
+  .nav-links ul {
+    width: 35dvw;
+    gap: 1em;
+  }
+
+
+}
+
+
+@media screen and (max-width: 64em) {
+
+
+  .f-one{
+    display: none;
+  }
+
+  .category{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    gap: 1em;
+  
+    overflow-x: auto;
+    padding: 1em;
+  
+  }
+
+  .category::-webkit-scrollbar{
+    width: 0;
+  }
+
+
+  .sub-mg{
+    display: flex;
+    align-items: center;
+    height: 4.4em;
+    font-size: 1.5rem;
+  }
+
+
+}
