@@ -21,12 +21,6 @@
 }
 }
 
-/* @media screen and (max-width : 768px) {
-  html{
-    font-size: 13px;
-  }
-} */
-
 
 
  /* ---------Mobile phone large -------- */
@@ -112,6 +106,8 @@
   .gallery .header{
     gap: 1.5em;
   }
+
+
   .tags{
     justify-content: flex-start;
     overflow-x: auto;
@@ -123,6 +119,9 @@
     width: 0;
   }
 
+  .tag-name{
+    width: max-content;
+  }
 
   .review-box-1{
     flex-direction: column-reverse;
@@ -169,7 +168,6 @@
   }
 
   .b-quote{
-    fill: orange;
     width: 5em;
     left: 70%;
     top: 30%;
