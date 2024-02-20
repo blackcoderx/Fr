@@ -19,6 +19,11 @@
     padding-inline: 9px;
     padding-block: 11px;
 }
+
+  .tag-name{
+    width: max-content;
+  }
+
 }
 
 
